@@ -4,7 +4,7 @@ using namespace std;
 int majority_element(vector<int>&nums){
     int n = nums.size();
     int limt = n/2;
-    int count = 0;
+    int count = 1;
 
     for(int i = 0; i < n; i++){
         for(int j = i+1; j < n; j++){
@@ -17,6 +17,19 @@ int majority_element(vector<int>&nums){
         }
     }
 }
+
+// n time complexity
+
+int major_Elemnt(vector<int>&nums){
+    int temp = 0;
+    int max_temp = 0;
+    int count = 0, ans = 0;
+
+    for(int i = 0; i < nums.size(); i++){
+        
+    }
+}
+
 
 
 int majorityElement(vector<int>& nums) {
